@@ -17,7 +17,7 @@ function carregarCatalogo(){
             <h3 id="content-produto">${cadaProduto[2]}</h3>
 
             <button id="button-produto">
-                Comprar
+                Adicionar
                 <img src="images/icons/plus-circle.svg" alt="">
             </button>
 

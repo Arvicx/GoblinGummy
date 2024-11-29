@@ -60,11 +60,16 @@
     flex-wrap: wrap;  
 }
 
+#content-produto{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
 
 .produto{
     width: 200px;
-    padding: 5px;
-    background-color: rgb(37, 145, 93);
+    padding: 30px;
+    background-color: rgb(3, 212, 111);
     color: white;
     display: flex;
     flex-direction: column;
@@ -73,6 +78,7 @@
     border-radius: 10px;
     text-align: center;
     transition: 0.5s;
+    font-family: 'Arial';
 }
 
 .produto img{
@@ -91,3 +97,37 @@ footer{
     position: relative;
 }
 
+#mainPrincipal{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#mainDireito{
+    width: 50%;
+    display: flex;
+}
+
+#mainEsquerdo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#mainEsquerdoCima{
+    width: 100%;
+    height: 50%;
+}
+
+#mainEsquerdoBaixo{
+    width: 100%;
+    height: 50%;
+}
+
+.carousel-inner{
+    border-radius: 5%;
+}
+
+#button-produto{
+    border-radius: 6px;
+}
