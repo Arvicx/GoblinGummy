@@ -20,14 +20,6 @@
     border-radius: 20px;
 }
 
-#InfluencersMarcas{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
-
 #influencers{
     margin: 10px 0px 10px 20px;
     border-radius: 10px;

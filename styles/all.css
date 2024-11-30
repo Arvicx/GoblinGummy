@@ -47,16 +47,6 @@ nav{
     gap: 20px;
 }
 
-a{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-}
-
-a img{
-    width: 100px;
-}
-
 #headerEsquerda{
     width: 50%;
     display: flex;
