@@ -1,3 +1,60 @@
-h3{
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, #94f098, #1b491e);
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h3 {
+    color: #1b5e20;
+    text-align: center;
     padding: 30px;
+}
+
+p {
+    margin: 0 1em;
+    text-align: justify;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    display: block;
+    margin: 1em auto;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #388e3c;
+}
+
+footer {
+    background: #1b5e20;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+footer a {
+    color: #80d8ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
